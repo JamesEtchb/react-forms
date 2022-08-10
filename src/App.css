@@ -1,5 +1,11 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 body {
   background-color: antiquewhite;
+}
+
+* {
+  margin-top: 5px;
 }
 
 form {
@@ -17,6 +23,7 @@ form {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 p {
@@ -34,11 +41,4 @@ p {
   display: block;
 } 
 
-button {
-  background: #f1356d;
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-}
+
